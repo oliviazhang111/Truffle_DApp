@@ -1,12 +1,11 @@
 # Truffle_DApp
 1.npm install web3
-1. 安装node.js 8.11.2 LTS
-2. 安装Truffle
+2. 安装node.js 8.11.2 LTS
+3. 安装Truffle
 $ npm install -g truffle
-3. 创建项目
+4. 创建项目
 $ mkdir MetaCoin
 $ cd MetaCoin
-下载("unbox") Metacoin box:
 $ truffle unbox metacoin
 5. 编译智能合约
 $ truffle compile
