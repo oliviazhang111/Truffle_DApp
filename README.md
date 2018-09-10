@@ -1,6 +1,6 @@
 # Truffle_DApp
 
-1.npm install web3
+  1.npm install web3
 
 2. 安装node.js 8.11.2 LTS
 
