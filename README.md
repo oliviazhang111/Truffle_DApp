@@ -23,8 +23,10 @@ $ truffle compile
 
 6. 部署智能合约
 要部署我们的智能合约，我们需要一个客户端来与区块链进行交互。推荐使用Ganache-cli(Ganache命令行版，原ethereumjs-testrpc)， 是一个适用于开发时使用的客户端，是Tuffle套件中的一部分。
+
 6.1 下载安装
 $ sudo npm install -g ganache-cli
+
 6.2 修改Tuffle.js文件为以下内容：(port=8545，host=当前服务器ip)
 module.exports = {
     networks: {
@@ -34,10 +36,12 @@ module.exports = {
             network_id: "*"
         }
     }
-};    
+};  
+
 6.3 启动Ganache-cli，创建区块链
 $ ganache-cli -h x.x.x.x
 创建了与区块链交互时可以使用的10个帐户（及其私钥），默认发送账户为第一个
+
 6.4 将合约迁移到由Ganache-cli创建的区块链
 $ truffle migrate --network ganache
 显示了已部署合约的交易ID和地址
