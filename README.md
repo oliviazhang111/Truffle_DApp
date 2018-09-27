@@ -55,3 +55,4 @@ open x.x.x.x:8545 check metacoin balance
   8.install metamask/ import account from ganache-cli
 
   9.set private network x.x.x.x:8545
+Please find more on [How to build your ERC20 token and launch an ICO](https://www.jianshu.com/p/5433ef1aeb34)
