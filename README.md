@@ -1,4 +1,5 @@
 # Truffle_DApp
+Please find more on [How to build your ERC20 token and launch an ICO](https://www.jianshu.com/p/5433ef1aeb34)
 
 1.npm install web3 latest//
   npm ls web3//
@@ -25,9 +26,6 @@ $ truffle compile
 要部署我们的智能合约，我们需要一个客户端来与区块链进行交互。推荐使用Ganache-cli(Ganache命令行版，原ethereumjs-testrpc)， 是一个适用于开发时使用的客户端，是Tuffle套件中的一部分。
 
 6.1 下载安装
-$ sudo npm install -g ganache-cli
-
-6.2 修改Tuffle.js文件为以下内容：(port=8545，host=当前服务器ip)
 module.exports = {
     networks: {
         development: {
@@ -55,4 +53,7 @@ open x.x.x.x:8545 check metacoin balance
   8.install metamask/ import account from ganache-cli
 
   9.set private network x.x.x.x:8545
-Please find more on [How to build your ERC20 token and launch an ICO](https://www.jianshu.com/p/5433ef1aeb34)
+
+$ sudo npm install -g ganache-cli
+
+6.2 修改Tuffle.js文件为以下内容：(port=8545，host=当前服务器ip)
